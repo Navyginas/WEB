@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'mano';
+  src: url(font/avocado.otf);
+}
+*{
+  font-family: Arial;
+}
+P{
+  border-radius: 10px;
+}
+.antras{
+  font-family: Verdana, Wingdings;
+  monospace;
+
+}
+#blogas1{
+  color:red;
+  }
+[class~="pirmas"]{
+  background-color: red;
+}
+h1, p{
+
+}
+
+p.antras{
+
+}

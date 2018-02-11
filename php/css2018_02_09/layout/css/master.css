@@ -1,0 +1,79 @@
+header, footer, article, nav, aside, section{
+  float: left;
+}
+header,footer, article{
+  width:100%;
+}
+
+nav, aside{
+  width: 20%;
+}
+section{
+
+    width: 60%;
+}
+section>div.box{
+  overflow: auto;
+}
+div.box{
+  border: 1px solid black;
+  margin: 5px;
+}
+header>div.box h1{
+  text-align: center;
+
+}
+nav>div.box ul{
+  padding-left: 0px;
+}
+nav>div.box ul li{
+  margin: 5px;
+  padding: 10px;
+
+}
+nav>div.box ul li:hover{
+  background-color: red;
+}
+nav>div.box ul{
+  list-style-type: none;
+}
+
+nav>div.box ul li a{
+  text-decoration: none;
+
+}
+article img{
+  border-radius: radius;
+  width: 200px;
+  margin: 5px;
+  /*float: left;*/
+
+}
+article img:hover article{
+  
+}
+/*
+min-width reiskia nuo
+max-width reiskia iki
+
+*/
+
+@media screen and (max-widht:600px) {
+  header,footer, article{
+    width:100%;
+  }
+
+  nav, aside{
+    width: 100%;
+  }
+  section{
+
+      width: 100%;
+  }
+  nav>div.box ul li{
+    float: left;
+  }
+  nav>div.box{
+    overflow: auto;
+  }
+}
