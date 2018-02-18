@@ -1,1 +1,5 @@
-Sveikas atvykæs!!
+html1. Ok. tik p elementas neturi bûti átrauktas labiau nei h1 elementas. p elementas nëra h1 elemento vaikas.
+html2. Uþduoties tikslas buvo panaudoti semantinius elementtus, tokius kaip q, cite, em, strong.
+html3. Ten kur "Gaminimas" padaryta sàraðas sàraðe, todël gaunasis labiau atitrauktas nuo kraðto, nei parodyta uþduoties paveikslëlyje. Visa kita OK.
+html4. Pagal uþduotá vienas paveiksliukas atitrauktas. Tai tik tas paveiksliukas yra ádëtas á elementà figure. ir su figcaption.
+video: Negroja video. source scr="video/puppy.flv tai gal SRC? 
